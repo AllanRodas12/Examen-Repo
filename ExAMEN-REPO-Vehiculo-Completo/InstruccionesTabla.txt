@@ -1,4 +1,3 @@
-PASOS PARA CREAR EL READMEFILE
 
 1--- Crear  un repositorio donde se guardara el proyecto o trabajo.
 
