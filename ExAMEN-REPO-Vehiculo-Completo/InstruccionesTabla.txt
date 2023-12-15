@@ -1,0 +1,27 @@
+PASOS PARA CREAR EL READMEFILE
+
+1--- Crear  un repositorio donde se guardara el proyecto o trabajo.
+
+
+CREAMOS LA TABLA SOLICITADA
+
+1---Junto a este documento adjunto el codigo para crear la base datos y la tabla que se usara, usted puede cambiarle nombre a los campos como desee.
+
+"Decidi adjuntarla aqui"
+------------------Crear DB donde se guardaran los parametros------------------
+
+CREATE DATABASE IF NOT EXISTS cars;
+USE cars;
+
+CREATE TABLE IF NOT EXISTS vehicles (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    placacar VARCHAR(10) NOT NULL,
+    modelo VARCHAR(50) NOT NULL,
+    anho INT NOT NULL,
+    binauto VARCHAR(17)NOT NULL
+);
+
+2---para agregar y actualizar se usa la misma pantalla,para agregar no se tenie que llenar el campo ID
+
+
+
